@@ -9,7 +9,15 @@ import imageBookMacOSApp from "../public/images/macos-app.png"
 export async function getStaticProps() {
   return {
     props: {
-      pageId: "projects"
+      pageId: "projects",
+      metadata: {
+        title: "Test Title",
+        description: "Discover the work on the projects. ",
+        openGraph: {
+          image: "https://example.com/image.jpg",
+          url: "https://example.com"
+        }
+      }
     }
   }
 }
