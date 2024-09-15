@@ -49,7 +49,7 @@ export default function Projects() {
     </header>
     <div className="mt-16">
       <h2 className="text-2xl">Apps</h2>
-      <ul className="grid grid-cols-4 gap-x-12 gap-y-16 mt-8">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16 mt-8">
         <ProjectItem name={"TallyCoin: Tracking Chores And Rewards"}
           url={"https://apps.apple.com/us/app/tallycoin/id1633932632"}
           urlDisplay={"App Store"}
@@ -62,7 +62,7 @@ export default function Projects() {
       </ul>
       <div className="mt-16">
         <h2 className="text-2xl">Books</h2>
-        <ul className="grid grid-cols-4 gap-x-12 gap-y-16 mt-8">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16 mt-8">
           <ProjectItem name={"Building macOS apps with SwiftUI: A Practical Learning Guide"}
             url={"https://www.amazon.com/gp/product/B0BP5P9H31"}
             urlDisplay={"amazon.com"}
