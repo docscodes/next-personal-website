@@ -39,7 +39,7 @@ type FooterLinkProps = {
 }
 
 function FooterLink(props: FooterLinkProps) {
-  let { url, text } = props
+  const { url, text } = props
   return <a className="transition hover:text-teal-500" href={url}>{text}</a>
 }
 
