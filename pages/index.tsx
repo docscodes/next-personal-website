@@ -3,7 +3,7 @@ export async function getStaticProps() {
     props: {
       pageId: "about_me",
       metadata: {
-        title: "Test Title",
+        title: "About Me",
         description: "Discover the work on the personal website. ",
         openGraph: {
           image: "https://example.com/image.jpg",
